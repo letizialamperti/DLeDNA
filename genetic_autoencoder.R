@@ -1,8 +1,8 @@
 ################################################################################
 ####                                                                        ####
-####    New variational autoencoders and deep metric learning based         ####
-####        methods improve the dimensionality reduction of                 ####
-####               environmental DNA metabarcoding data                     ####
+####          New deep learning-based methods                               ####
+####        for visualizing ecosystem properties                            ####
+####       using environmental DNA metabarcoding data                       ####
 ####                                                                        ####
 ####                                                                        ####
 ####                      Autoencoder genetic info                          ####
