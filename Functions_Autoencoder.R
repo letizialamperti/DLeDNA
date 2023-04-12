@@ -30,13 +30,13 @@ translate_sequence_fun <- function(x) {
     }} 
   return(seq_translated)}
 
-construct_genetic_tensor <- function(x) {
+construct_input_ae <- function(x) {
   genetic_tensor <- NULL
   for (i in 1:length(x)) {
     if( x[i] != 0){
       current_motu_sequence <- sequences[i]
       matrix_current_motu <-NULL
-      matrix_current_motu <- sequences_tran[[current_motu_sequence]]
+      matrix_current_motu <- translate_sequence_fun(current_motu_sequence)
       genetic_tensor <- cbind(genetic_tensor, matrix_current_motu)
     }
     else{
