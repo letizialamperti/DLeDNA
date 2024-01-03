@@ -1,4 +1,6 @@
 # DLeDNA
+ref. doi: https://doi.org/10.1111/1755-0998.13861
+
 New variational autoencoders and deep metric learning based methods improve the dimensionality reduction of environmental DNA metabarcoding data
 
 Here we present two new methods based on deep learning, in which we combine different types of neural networks that we have optimised for eDNA data: the first is based on variational autoencoders (*VAESeq*) and the second on deep metric learning (*ENNBetaDist*). These new methods allow the combination of multiple inputs, in our case the number of sequences found per each molecular operational taxonomic unit (MOTU), with the genetic sequence information of each detected MOTU. 
